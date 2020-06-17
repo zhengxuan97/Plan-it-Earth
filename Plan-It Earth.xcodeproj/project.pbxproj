@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5AC1DB248F7E6B00248143 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5AC1DA248F7E6B00248143 /* Constants.swift */; };
+		1F5BC629248E4248000DDA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC628248E4248000DDA47 /* AppDelegate.swift */; };
+		1F5BC62B248E4248000DDA47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC62A248E4248000DDA47 /* SceneDelegate.swift */; };
+		1F5BC62D248E4248000DDA47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC62C248E4248000DDA47 /* ViewController.swift */; };
+		1F5BC630248E4248000DDA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5BC62E248E4248000DDA47 /* Main.storyboard */; };
+		1F5BC632248E424B000DDA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5BC631248E424B000DDA47 /* Assets.xcassets */; };
+		1F5BC635248E424B000DDA47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5BC633248E424B000DDA47 /* LaunchScreen.storyboard */; };
+		1F5BC63D248E4271000DDA47 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC63C248E4271000DDA47 /* SignUpViewController.swift */; };
+		1F5BC63F248E4281000DDA47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC63E248E4281000DDA47 /* LoginViewController.swift */; };
+		1F5BC644248E8B2B000DDA47 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC643248E8B2B000DDA47 /* Utilities.swift */; };
+		1F5BC647248E9AEA000DDA47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F5BC646248E9AEA000DDA47 /* GoogleService-Info.plist */; };
+		1F8218FF249570FE00A03488 /* HomeViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8218FE249570FE00A03488 /* HomeViewController2.swift */; };
+		2E54552E17952CED16E3FABC /* Pods_Plan_It_Earth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE42E201DF233245D29F7AF /* Pods_Plan_It_Earth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F5AC1DA248F7E6B00248143 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F5BC625248E4248000DDA47 /* Plan-It Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan-It Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5BC628248E4248000DDA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F5BC62A248E4248000DDA47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F5BC62C248E4248000DDA47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F5BC62F248E4248000DDA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F5BC631248E424B000DDA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F5BC634248E424B000DDA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F5BC636248E424B000DDA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5BC63C248E4271000DDA47 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1F5BC63E248E4281000DDA47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F5BC643248E8B2B000DDA47 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1F5BC646248E9AEA000DDA47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F8218FE249570FE00A03488 /* HomeViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController2.swift; sourceTree = "<group>"; };
+		2AE42E201DF233245D29F7AF /* Pods_Plan_It_Earth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plan_It_Earth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FD283BF6CB0E39EBA16986 /* Pods-Plan-It Earth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plan-It Earth.debug.xcconfig"; path = "Target Support Files/Pods-Plan-It Earth/Pods-Plan-It Earth.debug.xcconfig"; sourceTree = "<group>"; };
+		A50BD9446C578CBDFB378AB5 /* Pods-Plan-It Earth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plan-It Earth.release.xcconfig"; path = "Target Support Files/Pods-Plan-It Earth/Pods-Plan-It Earth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5BC622248E4248000DDA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E54552E17952CED16E3FABC /* Pods_Plan_It_Earth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5AC1DC248F885400248143 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		1F5BC61C248E4248000DDA47 = {
+			isa = PBXGroup;
+			children = (
+				1F5BC627248E4248000DDA47 /* Plan-It Earth */,
+				1F5BC626248E4248000DDA47 /* Products */,
+				4A98EE0C0A506064A59FB470 /* Pods */,
+				FE04BECC861B382346DD3544 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F5BC626248E4248000DDA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F5BC625248E4248000DDA47 /* Plan-It Earth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F5BC627248E4248000DDA47 /* Plan-It Earth */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AC1DC248F885400248143 /* Media */,
+				1F5BC645248E8B33000DDA47 /* Helpers */,
+				1F5BC640248E4284000DDA47 /* View Controllers */,
+				1F5BC628248E4248000DDA47 /* AppDelegate.swift */,
+				1F5BC62A248E4248000DDA47 /* SceneDelegate.swift */,
+				1F5BC62E248E4248000DDA47 /* Main.storyboard */,
+				1F5BC631248E424B000DDA47 /* Assets.xcassets */,
+				1F5BC633248E424B000DDA47 /* LaunchScreen.storyboard */,
+				1F5BC636248E424B000DDA47 /* Info.plist */,
+				1F5BC646248E9AEA000DDA47 /* GoogleService-Info.plist */,
+			);
+			path = "Plan-It Earth";
+			sourceTree = "<group>";
+		};
+		1F5BC640248E4284000DDA47 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F5BC62C248E4248000DDA47 /* ViewController.swift */,
+				1F5BC63C248E4271000DDA47 /* SignUpViewController.swift */,
+				1F5BC63E248E4281000DDA47 /* LoginViewController.swift */,
+				1F8218FE249570FE00A03488 /* HomeViewController2.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1F5BC645248E8B33000DDA47 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1F5BC643248E8B2B000DDA47 /* Utilities.swift */,
+				1F5AC1DA248F7E6B00248143 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4A98EE0C0A506064A59FB470 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69FD283BF6CB0E39EBA16986 /* Pods-Plan-It Earth.debug.xcconfig */,
+				A50BD9446C578CBDFB378AB5 /* Pods-Plan-It Earth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE04BECC861B382346DD3544 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AE42E201DF233245D29F7AF /* Pods_Plan_It_Earth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F5BC624248E4248000DDA47 /* Plan-It Earth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F5BC639248E424B000DDA47 /* Build configuration list for PBXNativeTarget "Plan-It Earth" */;
+			buildPhases = (
+				C9B8E6C177484F85D2201EB1 /* [CP] Check Pods Manifest.lock */,
+				1F5BC621248E4248000DDA47 /* Sources */,
+				1F5BC622248E4248000DDA47 /* Frameworks */,
+				1F5BC623248E4248000DDA47 /* Resources */,
+				4DDB01A5D9DD4492484DCDDC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plan-It Earth";
+			productName = "Plan-It Earth";
+			productReference = 1F5BC625248E4248000DDA47 /* Plan-It Earth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F5BC61D248E4248000DDA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Lim Zheng Xuan";
+				TargetAttributes = {
+					1F5BC624248E4248000DDA47 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 1F5BC620248E4248000DDA47 /* Build configuration list for PBXProject "Plan-It Earth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F5BC61C248E4248000DDA47;
+			productRefGroup = 1F5BC626248E4248000DDA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F5BC624248E4248000DDA47 /* Plan-It Earth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F5BC623248E4248000DDA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5BC635248E424B000DDA47 /* LaunchScreen.storyboard in Resources */,
+				1F5BC647248E9AEA000DDA47 /* GoogleService-Info.plist in Resources */,
+				1F5BC632248E424B000DDA47 /* Assets.xcassets in Resources */,
+				1F5BC630248E4248000DDA47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DDB01A5D9DD4492484DCDDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plan-It Earth/Pods-Plan-It Earth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plan-It Earth/Pods-Plan-It Earth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plan-It Earth/Pods-Plan-It Earth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B8E6C177484F85D2201EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plan-It Earth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F5BC621248E4248000DDA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5BC62D248E4248000DDA47 /* ViewController.swift in Sources */,
+				1F5BC629248E4248000DDA47 /* AppDelegate.swift in Sources */,
+				1F5BC644248E8B2B000DDA47 /* Utilities.swift in Sources */,
+				1F5BC63D248E4271000DDA47 /* SignUpViewController.swift in Sources */,
+				1F5BC63F248E4281000DDA47 /* LoginViewController.swift in Sources */,
+				1F5BC62B248E4248000DDA47 /* SceneDelegate.swift in Sources */,
+				1F8218FF249570FE00A03488 /* HomeViewController2.swift in Sources */,
+				1F5AC1DB248F7E6B00248143 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F5BC62E248E4248000DDA47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5BC62F248E4248000DDA47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F5BC633248E424B000DDA47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5BC634248E424B000DDA47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F5BC637248E424B000DDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F5BC638248E424B000DDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F5BC63A248E424B000DDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FD283BF6CB0E39EBA16986 /* Pods-Plan-It Earth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93439J2V7S;
+				INFOPLIST_FILE = "Plan-It Earth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zx.Plan-It-Earth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F5BC63B248E424B000DDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50BD9446C578CBDFB378AB5 /* Pods-Plan-It Earth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93439J2V7S;
+				INFOPLIST_FILE = "Plan-It Earth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zx.Plan-It-Earth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F5BC620248E4248000DDA47 /* Build configuration list for PBXProject "Plan-It Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5BC637248E424B000DDA47 /* Debug */,
+				1F5BC638248E424B000DDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F5BC639248E424B000DDA47 /* Build configuration list for PBXNativeTarget "Plan-It Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5BC63A248E424B000DDA47 /* Debug */,
+				1F5BC63B248E424B000DDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F5BC61D248E4248000DDA47 /* Project object */;
+}
