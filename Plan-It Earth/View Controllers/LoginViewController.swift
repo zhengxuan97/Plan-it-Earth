@@ -66,6 +66,14 @@ class LoginViewController: UIViewController {
                 self.view.window?.makeKeyAndVisible()
             }
         }
+<<<<<<< HEAD
     }
     
 }
+=======
+// hi hans //
+// hello //
+// hello #2 //
+
+// switch login//
+>>>>>>> refs/remotes/origin/login
