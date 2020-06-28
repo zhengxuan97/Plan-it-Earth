@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vux-mt-45c">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -89,7 +89,7 @@
         <!--VC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" title="VC" id="BYZ-38-t0r" customClass="ViewController" customModule="Plan_It_Earth" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" title="VC" id="BYZ-38-t0r" customClass="ViewController" customModule="Plan_It_Earth" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,26 +142,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="116.51785714285714"/>
-        </scene>
-        <!--Home View Controller2-->
-        <scene sceneID="Ir7-Sp-m0e">
-            <objects>
-                <tabBarController storyboardIdentifier="HomeVC" id="whQ-fj-Vaw" customClass="HomeViewController2" customModule="Plan_It_Earth" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TmS-e4-xnv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="NKr-Zm-EZT" kind="relationship" relationship="viewControllers" id="olb-Kv-akV"/>
-                        <segue destination="hbD-oc-hVg" kind="relationship" relationship="viewControllers" id="z35-BW-ca1"/>
-                        <segue destination="t4N-7a-2yk" kind="relationship" relationship="viewControllers" id="YmN-zT-Sdi"/>
-                        <segue destination="sPe-zV-54g" kind="relationship" relationship="viewControllers" id="8a9-Kw-sdy"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lhk-F8-TB6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3146" y="117"/>
         </scene>
         <!--Expenses-->
         <scene sceneID="T63-ad-JRZ">
@@ -246,8 +226,7 @@
         <!--Navigation Controller-->
         <scene sceneID="xG6-4M-AbM">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nos-iN-PM5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Vux-mt-45c" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="InitialVC" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Vux-mt-45c" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EvW-zs-9H4">
                         <autoresizingMask key="autoresizingMask"/>
@@ -257,6 +236,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hMs-PK-YSB"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nos-iN-PM5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
         </scene>
@@ -307,6 +287,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1n-OZ-UP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4806" y="328"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="7pT-Ba-UeN">
+            <objects>
+                <tabBarController storyboardIdentifier="HomeVC" title="Home View Controller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IZw-eQ-aWX" customClass="HomeViewController" customModule="Plan_It_Earth" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xOC-1U-FFX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NKr-Zm-EZT" kind="relationship" relationship="viewControllers" id="KLv-Ii-4El"/>
+                        <segue destination="hbD-oc-hVg" kind="relationship" relationship="viewControllers" id="Iml-Lg-L7r"/>
+                        <segue destination="t4N-7a-2yk" kind="relationship" relationship="viewControllers" id="5JW-tn-b6x"/>
+                        <segue destination="sPe-zV-54g" kind="relationship" relationship="viewControllers" id="Cus-Gw-pUq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OYa-Hy-rop" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3332" y="117"/>
         </scene>
     </scenes>
 </document>
