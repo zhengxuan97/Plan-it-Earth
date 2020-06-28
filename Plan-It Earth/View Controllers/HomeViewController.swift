@@ -2,29 +2,43 @@
 //  HomeViewController.swift
 //  Plan-It Earth
 //
-//  Created by Lim Zheng Xuan on 8/6/20.
+//  Created by Lim Zheng Xuan on 28/6/20.
 //  Copyright © 2020 Lim Zheng Xuan. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    
+}
 
-    /*
-    // MARK: - Navigation
+class Itinerary: UIViewController {
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
-    */
+}
 
+class Expenses: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
+
+class Reviews: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
+
+class Reminders: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }

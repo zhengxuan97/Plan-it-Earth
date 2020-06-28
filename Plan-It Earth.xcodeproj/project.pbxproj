@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3C4D9F24A8911A00DA88CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C4D9E24A8911A00DA88CB /* HomeViewController.swift */; };
 		1F5AC1DB248F7E6B00248143 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5AC1DA248F7E6B00248143 /* Constants.swift */; };
 		1F5BC629248E4248000DDA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC628248E4248000DDA47 /* AppDelegate.swift */; };
 		1F5BC62B248E4248000DDA47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC62A248E4248000DDA47 /* SceneDelegate.swift */; };
@@ -18,11 +19,11 @@
 		1F5BC63F248E4281000DDA47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC63E248E4281000DDA47 /* LoginViewController.swift */; };
 		1F5BC644248E8B2B000DDA47 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC643248E8B2B000DDA47 /* Utilities.swift */; };
 		1F5BC647248E9AEA000DDA47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F5BC646248E9AEA000DDA47 /* GoogleService-Info.plist */; };
-		1F8218FF249570FE00A03488 /* HomeViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8218FE249570FE00A03488 /* HomeViewController2.swift */; };
 		2E54552E17952CED16E3FABC /* Pods_Plan_It_Earth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE42E201DF233245D29F7AF /* Pods_Plan_It_Earth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F3C4D9E24A8911A00DA88CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1F5AC1DA248F7E6B00248143 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1F5BC625248E4248000DDA47 /* Plan-It Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan-It Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5BC628248E4248000DDA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		1F5BC63E248E4281000DDA47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1F5BC643248E8B2B000DDA47 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		1F5BC646248E9AEA000DDA47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		1F8218FE249570FE00A03488 /* HomeViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController2.swift; sourceTree = "<group>"; };
 		2AE42E201DF233245D29F7AF /* Pods_Plan_It_Earth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plan_It_Earth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD283BF6CB0E39EBA16986 /* Pods-Plan-It Earth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plan-It Earth.debug.xcconfig"; path = "Target Support Files/Pods-Plan-It Earth/Pods-Plan-It Earth.debug.xcconfig"; sourceTree = "<group>"; };
 		A50BD9446C578CBDFB378AB5 /* Pods-Plan-It Earth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plan-It Earth.release.xcconfig"; path = "Target Support Files/Pods-Plan-It Earth/Pods-Plan-It Earth.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 				1F5BC62C248E4248000DDA47 /* ViewController.swift */,
 				1F5BC63C248E4271000DDA47 /* SignUpViewController.swift */,
 				1F5BC63E248E4281000DDA47 /* LoginViewController.swift */,
-				1F8218FE249570FE00A03488 /* HomeViewController2.swift */,
+				1F3C4D9E24A8911A00DA88CB /* HomeViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -252,10 +252,10 @@
 				1F5BC62D248E4248000DDA47 /* ViewController.swift in Sources */,
 				1F5BC629248E4248000DDA47 /* AppDelegate.swift in Sources */,
 				1F5BC644248E8B2B000DDA47 /* Utilities.swift in Sources */,
+				1F3C4D9F24A8911A00DA88CB /* HomeViewController.swift in Sources */,
 				1F5BC63D248E4271000DDA47 /* SignUpViewController.swift in Sources */,
 				1F5BC63F248E4281000DDA47 /* LoginViewController.swift in Sources */,
 				1F5BC62B248E4248000DDA47 /* SceneDelegate.swift in Sources */,
-				1F8218FF249570FE00A03488 /* HomeViewController2.swift in Sources */,
 				1F5AC1DB248F7E6B00248143 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
